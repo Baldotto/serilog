@@ -41,3 +41,6 @@ Add o parametro abaixo no metodo configure da Startup Class
 ```
 ILoggerFactory loggerFactory
 ```
+## Logs
+
+Os logs seguindo este passo a passo vão ficar disponiveis na raiz do seu projeto WebAPI na pasta logs este caminho pode ser alterado no linha de código  .WriteTo.RollingFile($"logs/{appname}-{{Hour}}.txt").
