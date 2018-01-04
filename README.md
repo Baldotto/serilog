@@ -11,7 +11,7 @@ Serilog.Sinks.RollingFile
 Serilog.Sinks.File
 
 Adicionar o metodo abaixo na Startup class
-
+```
 private void ConfigurarLog(IApplicationBuilder app, IHostingEnvironment env, ILoggerFactory loggerFactory)
 {
 
@@ -32,9 +32,12 @@ private void ConfigurarLog(IApplicationBuilder app, IHostingEnvironment env, ILo
       loggerFactory.AddDebug();
    }
 }
-
+```
 Add o trecho de código abaixo no metodo Configure da Startup Class
+```
 ConfigurarLog(app, env, loggerFactory);
-
+```
 Add o parametro abaixo no metodo configure da Startup Class
+```
 ILoggerFactory loggerFactory
+```
