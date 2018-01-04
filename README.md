@@ -4,12 +4,12 @@ Passa a passo para implementação do serilog em WebAPIs com .NetCore 2.0
 ## Setup
 
 Adicionar as dependências no projeto onde se encontra o WebAPI
-
+```
 Serilog
 Serilog.Extensions.Logging
 Serilog.Sinks.RollingFile
 Serilog.Sinks.File
-
+```
 Adicionar o metodo abaixo na Startup class
 ```
 private void ConfigurarLog(IApplicationBuilder app, IHostingEnvironment env, ILoggerFactory loggerFactory)
