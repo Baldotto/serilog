@@ -33,11 +33,11 @@ private void ConfigurarLog(IApplicationBuilder app, IHostingEnvironment env, ILo
    }
 }
 ```
-Add o trecho de código abaixo no metodo Configure da Startup Class
+Adicionar o trecho de código abaixo no metodo Configure da Startup Class
 ```
 ConfigurarLog(app, env, loggerFactory);
 ```
-Add o parametro abaixo no metodo configure da Startup Class
+Adicionar o parametro abaixo no metodo configure da Startup Class
 ```
 ILoggerFactory loggerFactory
 ```
