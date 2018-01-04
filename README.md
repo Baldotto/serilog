@@ -1,4 +1,4 @@
-# serilog
+# Serilog
 Passa a passo para implementação do serilog em WebAPIs com .NetCore 2.0
 
 ## Setup
