@@ -44,3 +44,5 @@ ILoggerFactory loggerFactory
 ## Logs
 
 Seguindo este passo a passo os logs vão ficar disponiveis na raiz do seu projeto WebAPI na pasta logs este caminho pode ser alterado no linha de código  .WriteTo.RollingFile($"logs/{appname}-{{Hour}}.txt").
+
+Caso queriam olhar um projeto que contem a implentação, segue o link https://github.com/Baldotto/CRUD.MongoDB
